@@ -261,16 +261,19 @@ drop column age;
 
 
 
+
+-- funcoes interessantes
+
 select '2021-10-01'::date - '2021-02-01'::date
-
-
 
 select replace ('1112222', '1', '0')
 
-
 coalesce() -- verifica o primeiro valor nao nulo
 
--- texto
+
+
+
+-- funcoes de texto
 
 lower
 upper
