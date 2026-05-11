@@ -229,7 +229,7 @@ insert into sales.customers_id(name);
 
 
 
--- linhas
+-- atualizar linhas
 
 update temp_tables.profissoes
 set professional_status = 'intern'
@@ -242,7 +242,7 @@ where status_professional = 'estagiario';
 
 
 
---  colunas
+--  atualizar colunas
 alter table sales.customers
 add customer_age int;
 
